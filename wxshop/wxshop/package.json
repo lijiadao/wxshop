@@ -1,0 +1,9 @@
+{
+  "name": "wxshop",
+  "version": "0.0.0",
+  "description": "wxshop",
+  "main": "server.js",
+  "author": {
+    "name": "87711"
+  }
+}
