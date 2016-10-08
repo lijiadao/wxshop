@@ -37,10 +37,28 @@
   <ItemGroup>
     <Folder Include="typings\" />
     <Folder Include="typings\globals\" />
+    <Folder Include="typings\globals\babel-core\" />
+    <Folder Include="typings\globals\koa-bodyparser\" />
+    <Folder Include="typings\globals\koa-router\" />
+    <Folder Include="typings\globals\koa\" />
+    <Folder Include="typings\globals\mime\" />
+    <Folder Include="typings\globals\mysql\" />
+    <Folder Include="typings\globals\mz\" />
     <Folder Include="typings\globals\node\" />
+    <Folder Include="typings\globals\nunjucks\" />
+    <Folder Include="typings\globals\sequelize\" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="typings\globals\babel-core\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\koa-bodyparser\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\koa-router\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\koa\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\mime\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\mysql\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\mz\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\node\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\nunjucks\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\sequelize\index.d.ts" />
     <TypeScriptCompile Include="typings\index.d.ts" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
