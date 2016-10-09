@@ -11,7 +11,11 @@ const app = new Koa();
 var files = fs.readdirSync(__dirname + '/controllers');
 
 // 过滤出.js文件:
-var js_files = files.filter((f) => {
+//var js_files = files.filter((f) => {
+//    return f.endsWith('.js');
+//}, files);
+
+var js_files = files.filter(function (f) {
     return f.endsWith('.js');
 }, files);
 
